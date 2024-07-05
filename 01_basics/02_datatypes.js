@@ -18,3 +18,4 @@ let isLoggedIn = true //boolean datatype
 
 console.log(typeof undefined); // output => undefined
 console.log(typeof null); // output => object
+
