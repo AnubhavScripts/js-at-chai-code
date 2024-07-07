@@ -45,4 +45,5 @@ console.log("1" + 2 + 2);
 console.log(1 + 2 +"2");
 
 console.log(2+3*5%3); */
-
+//  post increment
+//  and pre increment
