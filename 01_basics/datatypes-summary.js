@@ -36,3 +36,32 @@ console.log(typeof id);// symbol
 console.log(typeof debit);// undefined
 console.log(typeof scoreValue);// number
 console.log(typeof temp);// objeCt
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory types
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYouTubeName = "ExoNova";
+
+let anotherName = myYouTubeName;
+anotherName = "anubhav";
+
+console.log(anotherName);// anubhav 
+console.log(myYouTubeName);// exonova
+// ye isi liye hua kyunki stack memory mei jaisi hi humne anothername ko value diya usko myyoutubename ka copy mila original data nhi mila
+
+let userOne = {
+    email: "anubhav@abc.com",
+    upi : "abc@hdfc"
+}
+ let userTwo= userOne
+
+ userTwo.email = "exonova@adx.com";
+
+ console.log(userOne.email);// exonova@adx.com
+console.log(userTwo.email);// exonova@adx.com
+
+// idhar same value isilliye aaya kyunki heap memory mein reference ek se hi lete hai dono , so agar ek change 
+// dono ka hi value change hoga. mtlb real value change hogi.
