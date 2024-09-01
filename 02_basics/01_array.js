@@ -25,12 +25,12 @@ console.log(newArr );
 
 console.log("A" ,myArr);
 
-const myn1= myArr.slice(1,3)
+const myn1= myArr.slice(1,3)// returns a copy from (start,end) not including end
 console.log(myn1);
 console.log("B", myArr);
 
 
-const myn2 = myArr.splice(1,3)
+const myn2 = myArr.splice(1,3)// changes the original array, ##return the removed part of splice
 console.log(myn2);
 console.log("c", myArr);
 console.log(myArr);

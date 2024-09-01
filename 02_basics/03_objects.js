@@ -17,9 +17,12 @@ mail: "kanubhav998@gmail.com",
 
 }
 // console.log(jsUser.mail);
+console.log(jsUser["mail"]);// another way of representing of print object
+console.log(jsUser[mySym]);// used for symbol
+
 
 jsUser.mail= "kanubhav888@yahoo.com"
-// Object.freeze(jsUser)
+// Object.freeze(jsUser)   locking the values
 jsUser.mail = "kumar.yahoo.in"
 
 // console.log(jsUser.mail);
