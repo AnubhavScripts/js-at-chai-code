@@ -27,7 +27,7 @@ const obj2= {3:"c", 4:"d"}
 // const obj3 = {obj1, obj2} ## one way
 // const obj3= Object.assign({}, obj1, obj2)// most effective way 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
  
 const users = [
     {
@@ -40,9 +40,21 @@ const users = [
 
     },
 ]
-user[1].email // acessing the first value of the objecct 
+users[1].email // acessing the first value of the objecct 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+
+
+// de-structuring
+
+const course= {
+    coursename:"js-at-chai-code",
+    price: "999",
+    courseInstructor:"hitesh",
+}
+const{courseInstructor} = course
+
+console.log(courseInstructor);
 
