@@ -38,7 +38,7 @@ function loginUserMessage(username){
 // console.log(loginUserMessage()); ###agar koi bhi value put nhi kiya and tb agar 
 //print krte hai toh #undefined aata hai @null nhi aata 
 
-
+//###########################3
 // shopping cart
 /*function CalculateCartPrice (val1, val2 ,...num1){// rest operator
      return num1;
