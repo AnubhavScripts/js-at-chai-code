@@ -13,7 +13,7 @@ console.log(valueInNumber);  // NaN stands for not a number */
 let isLoggedIn = "anubhav"
 
 let booleanIsLoggedIn= Boolean(isLoggedIn);
-//console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 //1 => true; 0=> false
 // emtpy space => false
@@ -21,8 +21,8 @@ let booleanIsLoggedIn= Boolean(isLoggedIn);
 
 let someNumber =33;
 let stringNumber= String(someNumber);
-/*console.log(stringNumber);
-console.log(typeof stringNumber); */
+// console.log(stringNumber);
+// console.log(typeof stringNumber); 
  
 
 ///*********************************. OPERATIONS****************************////////////////////////// */
@@ -38,12 +38,12 @@ let str1= "hello";
 let str2 = " world";
 
 let str3= str1 + str2;
-/*console.log(str3);
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 +"2");
+// console.log(str3);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 +"2");
 
-console.log(2+3*5%3); */
+// console.log(2+3*5%3); 
 //  post increment
 //  and pre increment
