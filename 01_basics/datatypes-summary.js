@@ -22,7 +22,7 @@ let MyObj= {
     age: 19,
 }
 
-const myFunction = function () {
+const myFunction = function () {// function stored in a variable
     console.log( "hello world");
     
 }
@@ -37,6 +37,10 @@ console.log(typeof debit);// undefined
 console.log(typeof scoreValue);// number
 console.log(typeof temp);// objeCt
 
+//boolean ka type of boolean hi hota hai 
+//undefined ka type of undefined hi hota hai
+//string ka string hi hota hai 
+//function ka function hi hota hai 
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
