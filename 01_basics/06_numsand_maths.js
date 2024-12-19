@@ -12,7 +12,7 @@ const otherNumber = 23.456;
  
 const hunderds = 1000000;
 
-//console.log(hunderds.toLocaleString('en-IN'));// shows the number in commas in indian system
+// console.log(hunderds.toLocaleString('en-IN'));// shows the number in commas in indian system
  
 
 // ==+++++++++++++++++++++++++++++ MATHS +++++++++++++++++++++++++++++++++++++++

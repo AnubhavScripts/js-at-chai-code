@@ -5,7 +5,7 @@ const score = 100;
 const scoreValue = 200.33;
 const temp = null;
 const isLoggedIn= false;
-let debit;
+let debit;// iske andar undefined hoga  , utna matter nhi krta hai ki aap usko undefine value do hi 
 
 const id= Symbol('123');
 const anotherId= Symbol('123');
