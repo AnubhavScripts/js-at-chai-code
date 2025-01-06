@@ -11,10 +11,10 @@ console.log("a");
 }
 sayMyName()
 
-// function addTwoNumbers(number1,number2){
-//     console.log(number1 + number2);
+function addTwoNumbers(number1,number2){
+    console.log(number1 + number2);
     
-// }
+}
 
 function addTwoNumbers (number1,number2){
 //   let result = number1 + number2  
@@ -67,7 +67,9 @@ function returnSecondValue(getArray){
      return getArray[2]
 
 }
-console.log(returnSecondValue(newArray));
+// console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([100, 200, 300, 400]));
+
 
 
 

@@ -7,7 +7,7 @@ tinderUser.id = "exonova123"
 tinderUser.name = "anubhav"
 tinderUser.lastLogedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
            email : "ap98@test.com",
@@ -19,14 +19,14 @@ const regularUser = {
            }
 }
 
-// console.log(regularUser.fullName);
+console.log(regularUser.fullName);
 
 const obj1 ={1: "a", 2:"b"}
 const obj2= {3:"c", 4:"d"}
 
-// const obj3 = {obj1, obj2} ## one way
+const obj3 = {obj1, obj2} //## one way
 // const obj3= Object.assign({}, obj1, obj2)// most effective way 
-const obj3 = {...obj1, ...obj2}
+// const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
  
 const users = [

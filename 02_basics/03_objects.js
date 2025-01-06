@@ -2,7 +2,7 @@
 // singleton forms in constructor method 
 // Object.create = this is the constructor method
 
-//1.)  object literals
+//1.) given below is  object literals
 
 const mySym = Symbol("key1")// when used outside objects.
 
@@ -37,8 +37,9 @@ jsUser.greetingsTwo = function(){
     
 }
 
-console.log(jsUser.greetings());
+console.log(jsUser.greetings());// function decalare kr diya and then aab call back kr rhe hai
 
 console.log(jsUser.greetingsTwo());
 
 
+// ${this.age} this is use to call function during the console log
