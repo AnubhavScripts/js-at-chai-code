@@ -11,3 +11,10 @@
     // unnamed or simple iife
 })()
 // this was not getting printed because of semicolon not given in the first code or previous block of code
+
+
+// javascript execution context
+// it is of three types
+// global execution context
+// function execution context
+// eval execution context
