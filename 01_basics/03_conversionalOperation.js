@@ -15,6 +15,12 @@ let isLoggedIn = "anubhav"
 let booleanIsLoggedIn= Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn);
 
+/*
+"" => flase
+"anubhav" => true
+*/
+
+
 //1 => true; 0=> false
 // emtpy space => false
 // any string => true
@@ -25,7 +31,7 @@ let stringNumber= String(someNumber);
 // console.log(typeof stringNumber); 
  
 
-///*********************************. OPERATIONS****************************////////////////////////// */
+///*********************************  OPERATIONS  ****************************////////////////////////// */
 
 // console.log(2+2);
 // console.log(2-2);
@@ -39,11 +45,15 @@ let str2 = " world";
 
 let str3= str1 + str2;
 // console.log(str3);
-// console.log("1" + 2);
+console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 +"2");
+// console.log("1" + 2 + 2);// 122
+// console.log(1 + 2 +"2"); // 32 
 
 // console.log(2+3*5%3); 
 //  post increment
 //  and pre increment
+
+let pointsTable = 200;
+pointsTable++;
+console.log(pointsTable);

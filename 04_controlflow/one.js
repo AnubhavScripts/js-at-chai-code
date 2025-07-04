@@ -1,20 +1,20 @@
+
 //if
+const temperature = 41
+if(temperature == 51) {
+  console.log("temp. is less than 45");
+}
+else{
+    console.log("temp is greater than 45");
+}
 
-// const temperature = 41
-// if(temperature == 51) {
-//   console.log("temp. is less than 45");
-// }
-// else{
-//     console.log("temp is greater than 45");
-// }
+const score = 200
 
-// const score = 200
-
-// if (score>100) {
-//     const power = "fly"
-//     console.log(`this sscore means you can ${power}`);
-// }
-// console.log(`this scores ${power}`);
+if (score>100) {
+    const power = "fly"
+    console.log(`this sscore means you can ${power}`);
+}
+console.log(`this scores ${power}`);
 
 
 
@@ -37,16 +37,16 @@
 //     console.log(`less than 1200 i.e., ${balance}`);
 // }
 
-const userlogedin = true
-const debitcard= true
-const loggedinfromGoogle= false
-const loggedinfromEmail = true
+// const userlogedin = true
+// const debitcard= true
+// const loggedinfromGoogle= false
+// const loggedinfromEmail = true
 
-if (userlogedin && debitcard) {
-    console.log("allowed to buy ");
+// if (userlogedin && debitcard) {
+//     console.log("allowed to buy ");
     
     
-} else if(loggedinfromGoogle || loggedinfromEmail) {
-    console.log("user logged in ");
+// } else if(loggedinfromGoogle || loggedinfromEmail) {
+//     console.log("user logged in ");
     
-}
+// }

@@ -8,7 +8,7 @@ console.log(balance.toString().length);// now the number is converted into strin
 // console.log(balance.toFixed(2)); // for more accuracy in numbers .shows in points (100.00)
 
 const otherNumber = 23.456;
-// console.log(otherNumber.toPrecision(3));// ye first 3 numbers ko precise kr deta hai jaise isme 23.5
+// console.log(otherNumber.toPrecision(3));// ye first 3 numbers ko precise kr deta hai jaise isme 23.5 && it returns a string
  
 const hunderds = 1000000;
 

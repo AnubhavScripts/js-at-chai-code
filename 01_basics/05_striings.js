@@ -5,7 +5,7 @@ console.log(`hello my name is ${name} and my age is ${age}`);
 
 const gameName = new String('exo-nov-a');
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName.__proto__);
 
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(3));

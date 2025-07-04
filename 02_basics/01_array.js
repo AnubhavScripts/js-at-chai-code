@@ -12,13 +12,13 @@ console.log(myArr[1]);
 // myArr.pop()
 
 // myArr.unshift(9) // adds the number in the first place of arrays
-// myArr.shift() // removes the first digit of the original array
+// myArr.shift() // removes the first digit of the original array & no need to paas any value
 
 console.log(myArr.includes(4));
 console.log(myArr.indexOf(3));
 console.log(myArr);
 
-const newArr = myArr.join()// converts array into string
+const newArr = myArr.join()// join converts array into string
 console.log(newArr );
 
 // slice & splice

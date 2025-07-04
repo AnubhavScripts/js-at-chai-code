@@ -9,13 +9,13 @@ let isLoggedIn = true //boolean datatype
 // bigint => used for large numbers
 // string => should be written in ""
 // boolean => true or false
-// null=> standalone value
-// undefined => value is not assigned
+// null=> standalone value {ye ek representation hai empty value ka}
+// undefined => value is not assigned {}
 //symbol => used for uniquenss
 
 //objectss
 
 
-console.log(typeof undefined); // output => undefined
+console.log(typeof undefined); // output =>  undefined becoz it is a type 
 console.log(typeof null); // output => object
 

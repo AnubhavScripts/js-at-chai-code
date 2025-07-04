@@ -17,8 +17,8 @@ const another_array = [1, 2, 3, 4, [5, 6, 7], 8, 9, [10, 11, [12, 13 ,13 ], 15 ]
 const another_array_2 = another_array.flat(Infinity)
 console.log(another_array_2);// array ke andar array ko bhi ,ye ek jagah concatenate kr deta hai
 
-console.log(Array.isArray("anubhav"));
-console.log(Array.from("anubhav"));
+console.log(Array.isArray("anubhav"));// return boolean value
+console.log(Array.from("anubhav"));// converts the name into an array
 console.log(Array.from({name: "Anubhav"}));// returns empty array, we must use keys
 
 let score1=100

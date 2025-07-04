@@ -9,7 +9,7 @@
 (() => {
     console.log("db connected two");
     // unnamed or simple iife
-})()
+})();
 // this was not getting printed because of semicolon not given in the first code or previous block of code
 
 
@@ -18,3 +18,11 @@
 // global execution context
 // function execution context
 // eval execution context
+
+(() =>
+{
+    username="anubhav";
+    console.log(username);
+    
+})()
+

@@ -1,13 +1,13 @@
 // objects declared through the help of singleton or the constructor method
 
-// const tinderUser = new Object()                    ##singleton hai ye
-const tinderUser = {} // not a singleton
+const tinderUser = new Object()                    //##singleton hai ye
+// const tinderUser = {} // not a singleton
 
 tinderUser.id = "exonova123"
 tinderUser.name = "anubhav"
 tinderUser.lastLogedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser = {
            email : "ap98@test.com",
@@ -46,6 +46,8 @@ users[1].email // acessing the first value of the objecct
 // console.log(Object.entries(tinderUser));
 // console.log(Object.keys(tinderUser));
 
+console.log(tinderUser.hasOwnProperty('id33'));
+
 
 // de-structuring
 
@@ -54,7 +56,7 @@ const course= {
     price: "999",
     courseInstructor:"hitesh",
 }
-const{courseInstructor} = course
+const{courseInstructor} = course // we are extracting courseInstructor from course
 
 console.log(courseInstructor);
 
