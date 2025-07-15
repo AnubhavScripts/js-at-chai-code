@@ -12,23 +12,19 @@
     
 </body>
 <script>
-    function addlanguage (languagename){
-       const li = document.createElement('li');
-       li.innerHTML = `${languagename}`
-       document.querySelector('.language').appendChild(li)
-
+    function addLang(langname){
+        const list = document.createElement('li');
+        list.innerHTML = `${langname}`
+        document.querySelector('.language').appendChild(list)
     }
-    addlanguage("python")
-    addlanguage("ptype")
+    addLang("python");
+    addLang("typescript");
 
-    function addoptiLanguage(languagename){
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode(languagename))
-        document.querySelector('.language').appendChild(li)
-    }
-    addoptiLanguage('gofank')
-    //edit
-    const secondlang = document.querySelector("li:nth-child(2)")
-    // secondlang.innerHTML
+function addoptilang(langname){
+        const list = document.createElement('li');
+       list.appendChild(document.createTextNode(langname))
+       document.querySelector('.language').appendChild(list)
+}
+addoptilang("golang")
 </script>
 </html>

@@ -18,4 +18,28 @@
             </ul>
        </div>
  </body>
+ <script>
+    //type, timestamp,preventDefalut,
+//  srcelement, target, toElement, currentTarget
+//clientx, client y,screenX, screenY,
+//altkey,ctrl key, shift key
+//      document.getElementById('images').addEventListener('click' ,function(e){
+//       console.log("click inside UL");
+      
+//      },false)
+// document.getElementById('owl').addEventListener('click' ,function(e){
+//       console.log("owl clicked");
+      
+//      },false) //now it is bubling, but after turning it into true it will be called capturing
+
+//      document.getElementById('google').addEventListener('click', function(e){
+//         e.preventDefault();
+//      })
+document.querySelector('#images').addEventListener('click',function(e){
+    console.log(e.target.parentNode);
+    let remove = e.target.parentNode;
+    remove.remove()
+    
+})
+ </script>
  </html>
