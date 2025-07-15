@@ -46,7 +46,7 @@ console.log(`this scores ${power}`);
 //     console.log("allowed to buy ");
     
     
-// } else if(loggedinfromGoogle || loggedinfromEmail) {
+// } else if(loggedinfromGoogle || loggedinfromEmail) { // or sign ||
 //     console.log("user logged in ");
     
 // }
