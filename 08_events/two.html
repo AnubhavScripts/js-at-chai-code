@@ -16,10 +16,10 @@
   const changename= function(){
     document.querySelector('h1').innerHTML="Best JS Series";// used for popups
   }
-const changeme = setTimeout(changename,2000)
+const chang = setTimeout(changename,2000)
 
 document.querySelector('#stop').addEventListener('click',function(){
-    clearTimeout(changeme)
+    clearTimeout(chang);
     console.log("stopped");
 })
 

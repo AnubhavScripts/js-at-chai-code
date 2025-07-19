@@ -12,11 +12,24 @@
     <button id="stop">stop</button>
 </body>
 <script>
-const saydate = function(str){
-    console.log(str, Date.now());
+    let interval;
 
+const sayHi = function(str){
+console.log(str, Date.now());
 }
-const interval = setInterval(saydate,1000, "hi")
-clearInterval(interval);
+
+
+document.querySelector('#start').addEventListener('click',function(){
+  interval = setInterval(sayHi,1000, "anubhav")
+   console.log("started");
+})
+
+ document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(interval);
+    console.log("stoped");
+    
+});
+
+
 </script>
 </html>
