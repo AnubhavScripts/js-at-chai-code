@@ -102,5 +102,4 @@ promiseFour
   })
   .catch((error)=>{
     console.log(error);
-    
   })
